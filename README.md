@@ -23,7 +23,9 @@ You have to be a member of the "molcas-group" on Stallo to be able to use the ve
 
 ```
 module load molcas
+export WorkDir=/global/work/$USER/somepath
 molcas filename.inp
+cp /global/work/$USER/somepath/filename.MpProp .
 ```
 
 This will produce a file named filename.MpProp
