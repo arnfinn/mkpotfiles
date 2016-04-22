@@ -19,6 +19,8 @@ subloprop -xyz filename.xyz
 
 ## Run MolCas on Stallo
 
+You have to be a member of the "molcas-group" on Stallo to be able to use the version installed on Stallo. If you are not, please send an email to support-uit@notur.no and ask them to add you to the group.
+
 ```
 module load molcas
 molcas filename.inp
